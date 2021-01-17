@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
 /*
 Colors:
 
@@ -6,3 +8,112 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Roboto;
+}
+
+.spotify-logo {
+  width: 180px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto auto 10px auto;
+}
+
+h2 {
+  margin: 80px auto 20px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+article h3 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  font-weight: 300;
+  margin: 10px auto auto auto;
+}
+
+.landing {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.green {
+  color: #00b172;
+}
+
+.green-background {
+  background-color: #00b172;
+}
+
+.white {
+  color: #fff;
+}
+
+#articles {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 21px;
+  text-align: center;
+}
+
+article {
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+article > img {
+  width: 20%;
+  heigth: auto;
+  margin: 0 auto 0 auto;
+}
+
+#spotify-icon-white {
+  width: 8%;
+  height: auto;
+  margin: auto;
+}
+
+#spotify-app {
+  height: 500px;
+  width: auto;
+}
